@@ -16,7 +16,7 @@ So, you're a React and Next.Js fan. Awesome, so are we! You may have already dev
 
 We've kept the basic Parse Specific structure, with default entry point for Cloud Code at `./cloud/main.js`.
 
-All Next.JS code for yor app should be placed at the `src` folder.
+All Next.JS code for yor app should be placed at the `./src` folder.
 
 Additional details about how SashiDo works with Cloud Code, you may find in our [docs](https://blog.sashido.io/tag/cloud-code/).
 
@@ -39,6 +39,51 @@ nextJS
     console.error(ex.stack);
   });
 ```
+## Install 
+
+#### Requirements:
+
+ - Node.JS = 10.2.1
+
+ - Mongo DB
+
+#### Clone the repo:
+```
+git clone https://github.com/SashiDo/sashido-nextjs-boilerplate.git
+cd sashido-nextjs-boilerplate
+```
+#### Run Locally
+
+1. **Install Dependencies**
+As this is a full-featured example, all dependencies are present to the packege.json. You only need to run:
+
+```npm install```
+
+2. **Start the project**
+
+```npm run dev```
+
+3. **Compiled successfully** If everything is okay you should see an output similar to this one:
+```
+Running on http://localhost:1337
+info: Parse LiveQuery Server starts running
+Defining routes from exportPathMap
+[ ready ] compiled successfully
+
+```
+#### Add your Next.JS code
+
+Go wild and unleash your Next.JS creativity into the `./src` folder. 
+
+#### Deploy on SashiDo
+
+Add your new SashiDo app as a remote branch and push changes.
+
+```
+git remote add production git@github.com:parsegroundapps/<your-pg-app-your-app-repo>.git
+git push -f production master
+```
+
 
 ## License
 
