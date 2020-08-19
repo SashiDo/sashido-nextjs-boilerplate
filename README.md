@@ -4,7 +4,7 @@
 
 ## A flying start for your Next.js SashiDo project!
 
-You're a React and [Next.js](https://nextjs.org/) fan. Awesome, so are we, here at [SashiDo](https://www.sashido.io/en/)! Thus the idea to offer a starter kit for Next.js lovers came naturally. 
+You're a React and [Next.js](https://nextjs.org/) fan. Awesome! So are we, here at [SashiDo](https://www.sashido.io/en/)❤️! Thus the idea to offer a starter kit for Next.js lovers came naturally. 
 
 ## The Basics
 
@@ -12,11 +12,11 @@ You're a React and [Next.js](https://nextjs.org/) fan. Awesome, so are we, here 
  
  - **What is Next.js** is a great JavaScript framework that lets you easily build a complete web application with React and server-side rendering.
 
-## How this works
+## How this works?
 
 The project is developed as a Next.js boilerplate for SashiDo applications. The platform has allows implementation of server-side logic and has a built-in Express, which is directly mounted to the server. We use Express for handling the Next.js and you may find the respective logic is in `cloud/app.js` [here](https://github.com/SashiDo/sashido-nextjs-boilerplate/blob/master/cloud/app.js#L18).
 
-## Install 
+## Installation
 
 #### Clone the repo:
 ```
