@@ -44,9 +44,7 @@ nextJS
 #### Requirements:
 
  - Node.JS = 10.2.1
-
- - Mongo DB
-
+ 
 #### Clone the repo:
 ```
 git clone https://github.com/SashiDo/sashido-nextjs-boilerplate.git
