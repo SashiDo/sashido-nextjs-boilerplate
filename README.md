@@ -4,7 +4,7 @@
 
 ## A flying start for your Next.js SashiDo project!
 
-You're a React and [Next.js](https://nextjs.org/) fan. Awesome, so are we! Thus the idea to offer a starter kit for Next.js lovers came naturally. 
+You're a React and [Next.js](https://nextjs.org/) fan. Awesome, so are we, here at [SashiDo](https://www.sashido.io/en/)! Thus the idea to offer a starter kit for Next.js lovers came naturally. 
 
 ## The Basics
 
