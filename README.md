@@ -18,8 +18,6 @@ The project is developed as a Next.js boilerplate for SashiDo applications. The 
 
 ## Installation
 
-To make sure the project will start on the fly locally, keep your local environment as close as possible to the production one. At the `/health` endpoint of your app's API URL Address you can verify the current Parse Server and Node.JS version of your project. 
-
 **1. Clone the repo**
 ```
 git clone https://github.com/SashiDo/sashido-nextjs-boilerplate.git
@@ -59,7 +57,7 @@ Defining routes from exportPathMap
 **6. Open http://localhost:1337 in your browser and see the changes :)**
 
 
-**7 Deploy on SashiDo**
+## Deploy on SashiDo**
 
 Add your new SashiDo app as a remote branch and push changes.
 
