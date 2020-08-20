@@ -59,7 +59,7 @@ Defining routes from exportPathMap
 **6. Open http://localhost:1337 in your browser and see the changes :)**
 
 
-### Deploy on SashiDo
+**7 Deploy on SashiDo**
 
 Add your new SashiDo app as a remote branch and push changes.
 
