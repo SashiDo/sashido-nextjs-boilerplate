@@ -28,7 +28,9 @@ cd sashido-nextjs-boilerplate
 
 **2. Install Dependencies**
 
-```npm install```
+```
+npm install
+```
 
 **3. ENV Variables**
 
@@ -40,7 +42,9 @@ cd sashido-nextjs-boilerplate
 
 **4. Development**
 
-```npm run dev```
+```
+npm run dev
+```
 
 If everything is okay you should see an output similar to this one:
 ```
