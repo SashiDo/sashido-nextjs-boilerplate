@@ -1,6 +1,6 @@
 # SashiDo & NextJS Boilerplate
 
-![](https://media-blog.sashido.io/content/images/2020/08/sashido-love-nextjs.png)
+![](https://media-blog.sashido.io/content/images/2020/08/sashido-love-nextjs--1-.png)
 
 ## A flying start for your Next.js SashiDo project!
 
@@ -18,24 +18,19 @@ The project is developed as a Next.js boilerplate for SashiDo applications. The 
 
 ## Installation
 
-### Clone the repo:
+To make sure the project will start on the fly locally, keep your local environment as close to the production one. At the `/health` endpoint of your app's API URL Address you can verify the current Parse Server and Node.JS version of your project. 
+
+**1. Clone the repo**
 ```
 git clone https://github.com/SashiDo/sashido-nextjs-boilerplate.git
 cd sashido-nextjs-boilerplate
 ```
-### Run Locally
 
-To make sure the project will start on the fly locally, keep your local environment as close to the production one. At the `/health` endpoint of your app's API URL Address you can verify the current Parse Server and Node.JS version of your project. 
-
-1. **Install Dependencies**
-
-All dependencies are present to the package.json, just run:
+**2. Install Dependencies**
 
 ```npm install```
 
-2. **Customize Local App**
-
-To customize you local app settings, you can use ENV Variables:
+**3. ENV Variables**
 
 - `DATABASE_URI` - Default: 'mongodb://localhost:27017/dev'
 - `APP_ID` Default: 'myAppId'
@@ -43,11 +38,11 @@ To customize you local app settings, you can use ENV Variables:
 - `SERVER_URL` : Default: http://localhost:1337/1'
 - `PORT` : Default: 1337
 
-3. **Start the project**
+**4. Development**
 
 ```npm run dev```
 
-4. **Compiled successfully** If everything is okay you should see an output similar to this one:
+If everything is okay you should see an output similar to this one:
 ```
 Running on http://localhost:1337
 info: Parse LiveQuery Server starts running
@@ -55,9 +50,10 @@ Defining routes from exportPathMap
 [ ready ] compiled successfully
 
 ```
-### Add your Next.JS code
+**5. Go wild and unleash your Next.js creativity into the `./src` folder.** 
 
-Go wild and unleash your Next.js creativity into the `./src` folder. 
+**6. Open http://localhost:1337 in your browser and see the changes :)**
+
 
 ### Deploy on SashiDo
 
