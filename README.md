@@ -14,11 +14,11 @@ You're a React and [Next.js](https://nextjs.org/) fan. Awesome! So are we, here 
 
 ## How this works?
 
-The project is developed as a Next.js boilerplate for SashiDo applications. The platform has allows implementation of server-side logic and has a built-in Express, which is directly mounted to the server. We use Express for handling the Next.js and you may find the respective logic is in [`cloud/app.js`](https://github.com/SashiDo/sashido-nextjs-boilerplate/blob/master/cloud/app.js#L18).
+The project is developed as a Next.js boilerplate for SashiDo applications. The platform allows implementation of server-side logic and has a built-in Express, which is directly mounted to the server. We use Express for handling the Next.js and you may find the respective logic at [`cloud/app.js`](https://github.com/SashiDo/sashido-nextjs-boilerplate/blob/master/cloud/app.js#L18).
 
 ## Installation
 
-To make sure the project will start on the fly locally, keep your local environment as close to the production one. At the `/health` endpoint of your app's API URL Address you can verify the current Parse Server and Node.JS version of your project. 
+To make sure the project will start on the fly locally, keep your local environment as close as possible to the production one. At the `/health` endpoint of your app's API URL Address you can verify the current Parse Server and Node.JS version of your project. 
 
 **1. Clone the repo**
 ```
