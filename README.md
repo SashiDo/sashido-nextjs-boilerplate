@@ -8,11 +8,11 @@ You're a React and [Next.js](https://nextjs.org/) fan. Awesome! So are we, here 
 
 ## The Basics
 
- - **What is SashiDo.io** is a fully-managed serverless API development platform with scalable NodeJS Rest & GraphQL API, easy to use CMS, CRUD, Object and File storage, built-in CDN, User Management, Relations, Push Notifications, System Emails, Cloud functions & Jobs, Real-time messages, and more out of the box.
+ - **What is SashiDo.io** - A fully-managed serverless API development platform with scalable NodeJS Rest & GraphQL API, easy to use CMS, CRUD, Object and File storage, built-in CDN, User Management, Relations, Push Notifications, System Emails, Cloud functions & Jobs, Real-time messages, and more out of the box.
  
- - **What is Next.js** is a great JavaScript framework that lets you easily build a complete web application with React and server-side rendering.
+ - **What is Next.js** - A great JavaScript framework that lets you easily build a complete web application with React and server-side rendering.
 
-## How this works?
+## How does this work?
 
 The project is developed as a Next.js boilerplate for SashiDo applications. The platform allows implementation of server-side logic and has a built-in Express, which is directly mounted to the server. We use Express for handling the Next.js and you may find the respective logic at [`cloud/app.js`](https://github.com/SashiDo/sashido-nextjs-boilerplate/blob/master/cloud/app.js#L18).
 
