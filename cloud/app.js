@@ -1,13 +1,18 @@
 /*
  * Advanced Cloud Code Example
  */
+const dev = process.env.NODE_ENV !== "production";
 
 const express = require('express');
 const app = express();
 
 const next = require("next");
-const dev = process.env.NODE_ENV !== "production";
-const nextJS = next({ dev });
+
+const nextJS = next({
+  dev,
+  dir: dev ? './' : './repo',
+});
+
 const handle = nextJS.getRequestHandler();
 
 
